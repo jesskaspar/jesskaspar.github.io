@@ -351,22 +351,62 @@ template {
 .nav{
 	height: 100px;
 	width: 100%;
-	padding: 31px:
+	padding: 31px;
+  background-color: FCEFCD;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .logo{
 	float: left;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .nav-bar{
 	float: right;
+  font-size: 25px;
+  font-family: "Overpass", verdana, sans-serif;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 header{
-	background-image: url();
+	background-image: url(/images/hero.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 31px;
+  height: 350px;
+  width: 100%;
+	padding-top: 100px;
+  text-align: center;
+}
+
+.slogan{
+  font-size: 36px;
+  font-family: "Chivo", verdana, sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 62px;
+  font-family: "Chivo", verdana, sans-serif;
+  font-weight: normal;
+
+}
+h2{
+  font-size: 36px;
+  font-family: "Chivo", verdana, sans-serif;
+  font-weight: normal;
+}
+p{
+  font-size: 16px;
+  font-family: "Overpass", verdana, sans-serif;
+  font-weight: normal;
 }
 
 .row{
