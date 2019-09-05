@@ -377,7 +377,7 @@ a:link {
 }
 
 header{
-	background-image: url(/images/hero.jpg);
+	background-image: url(../images/hero.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
   height: 350px;
