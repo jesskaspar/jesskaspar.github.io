@@ -1,14 +1,16 @@
+/*index html*/
+.body{
+	background-color: #FCEFCD;
+}
 
 .nav{
-	height: 100px;
+	height: 50px;
 	width: 100%;
 	padding: 31px;
-  background-color: FCEFCD;
 }
 
 a:link {
   color: black;
-  background-color: transparent;
   text-decoration: none;
 }
 
@@ -56,19 +58,35 @@ header{
   clear: both;
 }
 
-.col1{
-  background-image: url(../images/oceanpic.jpg);
+.ocean{
+	background-image: url(../images/oceanpic.jpg);
 	background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
+}
+
+.headers{
+	padding-left: 20px;
+}
+.col1{
+	background-color: #CFD9BB;
   height: 533px;
-  width: 48%;
+  width: 50%;
   float: left;
+	margin-top: 10px;
 }
 
 .col2{
     float: right;
     height: 533px;
-    width: 48%;
+    width: 49%;
+		margin-top: 10px;
+}
+
+.box1{
+		background-color: #CFD9BB;
+}
+.box2{
+		background-color: #D3DCDE;
 }
 
 .wrap{
@@ -82,16 +100,36 @@ header{
   flex-direction: row;
 }
 
-.right{
-	display: flex;
-	flex-direction: row;
-
+.about-description{
+	margin: 10px;
+	padding-left: 250px;
+	padding-top: 160px;
 }
 
 .slogan{
   font-size: 36px;
   font-family: "Chivo", verdana, sans-serif;
   font-weight: normal;
+}
+
+.ccimages{
+	margin: 10px;
+}
+
+.bjimages{
+	margin: 10px;
+}
+
+.about{
+	margin: 10px;
+	padding-left: 250px;
+}
+
+.link{
+	background-color: #667245;
+	font-size: 16px;
+  font-family: "Overpass", verdana, sans-serif;
+  font-weight: bold;
 }
 
 h1{
@@ -102,6 +140,7 @@ h1{
 }
 
 h2{
+	padding-left: 20px;
   font-size: 36px;
   font-family: "Chivo", verdana, sans-serif;
   font-weight: normal;
@@ -117,4 +156,72 @@ p{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.bottomnav{
+	font-size: 16px;
+	font-family: 'Overpass', sans-serif;
+	padding-right: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: inherit;
+}
+
+/*project container*/
+
+.grid-container{
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.item1{
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 1;
+}
+
+.item2{
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 2;
+}
+
+.item3{
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 1;
+}
+
+.item4{
+	grid-column: 1 / span 1;
+	grid-row: 4 / span 4;
+}
+
+.item5{
+	grid-column: 2 / span 1;
+	grid-row: 3 / span 1;
+}
+
+.item6{
+	grid-column: 2 / span 1;
+	grid-row: 5 / span 2;
+}
+
+.item7{
+	grid-column: 1 / span 2;
+	grid-row: 8 / span 3;
+}
+
+.item8{
+	grid-column: 1 / span 2;
+	grid-row: 11 / span 4;
+}
+
+.item9{
+	grid-column: 1 / span 2;
+	grid-row: 15 / span 1;
+}
+
+.item10{
+	grid-column: 1 / span 2;
+	grid-row: 16 / span 1;
 }
