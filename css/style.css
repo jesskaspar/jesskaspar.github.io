@@ -186,6 +186,12 @@ p{
   justify-content: center;
 }
 
+.style-grid{
+	display:grid;
+	grid-template-columns: 70% 70%;
+	grid-template-rows: auto auto auto auto;
+	padding: 10px;
+}
 
 /*project container*/
 
