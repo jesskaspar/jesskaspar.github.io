@@ -162,6 +162,10 @@ header{
 	margin-left: 125px;
 }
 
+.uf2-images{
+	display:none;
+}
+
 .b1-images{
 	padding: 10px;
 }
@@ -169,6 +173,10 @@ header{
 .b2-images{
 	padding: 10px;
 	margin-left: 100px;
+}
+
+.b1-2-images{
+	display: none;
 }
 
 .b3-images{
@@ -418,7 +426,8 @@ p{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-row-gap: 10px
+	grid-row-gap: 10px;
+	width: 100%;
 }
 
 .item16{
@@ -440,6 +449,7 @@ p{
 	grid-column: 2 / span 1;
 	grid-row: 1 / span 3
 }
+
 /* Media Queries*/
 
 @media screen and (max-width: 575px){
@@ -462,7 +472,7 @@ p{
 }
 
 header{
-	background-image: url(/images/herodark.jpg);
+	background-image: url(../images/herodark.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
   height: 250px;
@@ -473,6 +483,15 @@ header{
 
 h1{
 	font-size: 36px;
+}
+
+h2{
+	margin: 10px;
+}
+
+h4{
+	margin: 10px;
+	text-align: center;
 }
 
 .slogan{
@@ -526,6 +545,17 @@ h1{
   clear: both;
 }
 
+.wrap{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer{
+  justify-content: space-around;
+		padding-left: 1px;
+}
+
+/*images*/
 .ocean{
 	background-image: url(../images/oceandark.jpg);
 	background-repeat: no-repeat;
@@ -546,136 +576,155 @@ h1{
 	width: 180px;
 }
 
-.wrap{
-	display: flex;
-	flex-direction: column;
+.up1-images{
+	padding-left: 25px
+}
+
+.up2-images{
+	padding-left: 25px
+}
+
+.uf2-images{
+	display: block;
+	width: 100%;
+}
+
+.uf-images{
+	display:none;
+}
+
+.b1-2-images{
+	display:block;
+	width: 100%;
+}
+.b1-images{
+	display: none;
+}
+
+.b2-images{
+	display: none;
+}
+
+.b3-images{
+	display: none;
+}
+
+.wf1-images{
+	display: none;
+}
+.wf2-images{
+	display: none;
+}
+
+.m1-images{
+	display:block;
+	width: 100%
+	padding: 0px;
+}
+
+.m2-images{
+	width: 100%
+}
+.m3-images{
+	width: 100%
+}
+.m4-images{
+	width: 100%
+}
+.m5-images{
+	width: 100%
+}
+.m6-images{
+	width: 100%
 }
 
 /* project container responsive */
 .grid-container1{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto;
+	display: block;
 }
 
-.item1{
-	background-color: #D3DCDE;
-	grid-row: 1 / span 1;
-	padding-left: 5px;
-}
-
-.item1a{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 1;
-	padding:10px;
-}
-
-.item1b{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 1;
-}
 
 .grid-container2{
-	display:grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto auto;
-	grid-gap: 10px;
-	margin-top: 10px;
-}
-
-
-.item2{
-	background-color: #CFD9BB;
-	grid-row: 1 / span 1;
-}
-
-.item3{
-	background-color: #CFD9BB;
-	grid-row: 1 / span 1;
-}
-
-.item4{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 3;
-}
-
-.item5{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 1;
-}
-
-.item6{
-	background-color: #D3DCDE;
-	grid-row: 3 / span 2;
+	display: block;
 }
 
 .grid-container3{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto;
-	grid-row-gap: 10px;
-	padding-top: 10px;
+	display: block;
+	padding-top: 0px;
 }
 
-.item7{
-	background-color: #CFD9BB;
-	grid-row: 1 / span 2;
-}
-
-.item8{
-	background-color: #CFD9BB;
-	grid-row: 1 / span 2;
-	padding-top:85px;
-}
 .grid-container4{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto;
-	padding-bottom: 10px;
-}
-
-.item9{
-	background-color: #D3DCDE;
-	grid-row: 1 / span 1;
-}
-
-
-.item10{
-	background-color: #D3DCDE;
-	grid-row: 1 / span 1;
-	padding-top:85px;
-}
-
-.item11{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 6;
+	display: block;
 }
 
 .grid-container5{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto;
-	grid-row-gap: 10px;
+	display: block;
+	grid-row-gap: 0px;
+}
+
+.item3{
+	background-color: #D3DCDE; /*blue*/
+}
+
+.item4{
+	background-color: #CFD9BB;
+}
+
+.item6{
+	background-color: #CFD9BB; /*green*/
+}
+
+.item7{
+	background-color: #D3DCDE;
+}
+.item8{
+	padding-top: 0px;
+	background-color: #D3DCDE;
+}
+
+.item9{
+	background-color: #CFD9BB;
+}
+
+.item10{
+	padding-top: 0px;
+	background-color: #CFD9BB;
+}
+.item11{
+	background-color: #CFD9BB;
 }
 
 .item12{
-	background-color: #CFD9BB;
-	grid-row: 1 / span 1;
+	background-color: #D3DCDE; /*blue*/
 }
-
 .item13{
-	background-color: #CFD9BB;
-	grid-row: 1 / span 1;
-	padding-top:80px;
+	padding-top: 0px;
+	background-color: #D3DCDE; /*blue*/
 }
 
 .item14{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 1;
+	background-color: #CFD9BB; /*green*/
+}
+.item15{
+	padding-top: 0px;
+	background-color: #CFD9BB; /*green*/
 }
 
-.item15{
-	background-color: #D3DCDE;
-	grid-row: 2 / span 1;
-	padding-top:80px;
+/*about me responsive */
+
+@media screen and (max-width: 575px){
+  .container {
+  width: 100%;
+}
+
+
+.grid-container6{
+	display: block;
+	grid-row-gap: 10px;
+	grid-column: 1fr;
+	grid-row: 3fr;
+}
+
+.amd-images{
+	display: none;
 }
