@@ -185,39 +185,40 @@ header{
 }
 
 .wf1-images{
-	padding: 10px;
-	margin-left: 30px;
+	width: 100%;
 }
 .wf2-images{
-	padding: 10px;
-	margin-left: 30px;
+	width: 100%;
 }
 
 .m1-images{
 	margin-left: 65px;
-	padding: 12px;
-
+	width: 30%;
 }
 
 .m2-images{
-	padding: 12px;
+	width: 30%;
 }
 
 .m3-images{
-	padding: 12px;
+	width: 30%;
 }
 
 .m4-images{
 	margin-left: 65px;
-	padding: 12px;
+	width: 30%;
 }
 
 .m5-images{
-	padding: 12px;
+	width: 30%;
 }
 
 .m6-images{
-	padding: 12px;
+	width: 30%;
+}
+
+.op-images{
+	width: 100%;
 }
 
 h1{
@@ -245,6 +246,7 @@ h4{
 	font-size: 62px;
 	font-family: "Chivo", verdana, sans-serif;
 	font-weight: normal;
+	margin: 10px;
 }
 h5{
 	font-size: 16px;
@@ -491,7 +493,6 @@ h2{
 
 h4{
 	margin: 10px;
-	text-align: center;
 }
 
 .slogan{
@@ -618,24 +619,32 @@ h4{
 
 .m1-images{
 	display:block;
-	width: 100%
+	width: 100%;
 	padding: 0px;
+	margin: 0px;
 }
 
 .m2-images{
-	width: 100%
+	width: 100%;
+	padding: 0px;
 }
+
 .m3-images{
-	width: 100%
+	width: 100%;
+	padding: 0px;
 }
 .m4-images{
-	width: 100%
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 .m5-images{
-	width: 100%
+	width: 100%;
+	padding: 0px;
 }
 .m6-images{
-	width: 100%
+	width: 100%;
+	padding: 0px;
 }
 
 /* project container responsive */
@@ -721,8 +730,6 @@ h4{
 .grid-container6{
 	display: block;
 	grid-row-gap: 10px;
-	grid-column: 1fr;
-	grid-row: 3fr;
 }
 
 .amd-images{
