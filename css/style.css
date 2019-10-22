@@ -703,10 +703,20 @@ h4{
 
 .ccimages{
 	width: 170px;
+	padding: 0px;
+}
+
+.ccimages2{
+	display: block;
 }
 
 .bbimages{
 	width: 180px;
+	padding: 0px;
+}
+
+.bbimages2{
+	display: block;
 }
 
 .up1-images{
