@@ -39,7 +39,7 @@ ul{
 }
 
 header{
-	background-image: url(/images/herodark.jpg);
+	background-image: url(../images/herodark.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
   height: 350px;
