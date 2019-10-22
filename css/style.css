@@ -55,7 +55,7 @@ header{
 }
 
 .ocean{
-	background-image: url(/images/oceandark.jpg);
+	background-image: url(../images/oceandark.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
