@@ -96,7 +96,6 @@ header{
 .left{
   display: flex;
   flex-direction: row;
-
 }
 
 .about-description{
