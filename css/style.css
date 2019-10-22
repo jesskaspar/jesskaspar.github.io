@@ -454,6 +454,138 @@ p{
 
 /* Media Queries*/
 
+/*ipad*/
+@media screen and (max-width: 768px){
+  .container {
+  width: 100%;
+}
+
+.about-description{
+	padding: 25px;
+}
+
+.aboutme{
+	margin-left: 25px;
+}
+
+.description{
+	display: none;
+}
+
+.left{
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+}
+.link{
+	margin-top: 25px;
+}
+
+.ccimages{
+	padding: 10px;
+}
+.ccimages2{
+	display: none;
+}
+
+.bjimages{
+	width: 100%;
+}
+
+.bbimages1{
+	padding: 10px;
+}
+
+.bbimages2{
+	display: none;
+}
+
+/*about me ipad */
+.grid-container6{
+	display: block;
+	grid-row-gap: 10px;
+	grid-template-rows:auto;
+}
+
+.amd-images{
+	display: none;
+}
+
+/*projects ipad*/
+.grid-container1{
+	display: block;
+}
+
+
+.grid-container2{
+	display: block;
+}
+
+.grid-container3{
+	display: block;
+	padding-top: 0px;
+}
+
+.grid-container4{
+	display: block;
+}
+
+.grid-container5{
+	display: block;
+	grid-row-gap: 0px;
+}
+
+.item3{
+	background-color: #D3DCDE; /*blue*/
+}
+
+.item4{
+	background-color: #CFD9BB;
+}
+
+.item6{
+	background-color: #CFD9BB; /*green*/
+}
+
+.item7{
+	background-color: #D3DCDE;
+}
+.item8{
+	padding-top: 0px;
+	background-color: #D3DCDE;
+}
+
+.item9{
+	background-color: #CFD9BB;
+}
+
+.item10{
+	padding-top: 0px;
+	background-color: #CFD9BB;
+}
+.item11{
+	background-color: #CFD9BB;
+}
+
+.item12{
+	background-color: #D3DCDE; /*blue*/
+}
+.item13{
+	padding-top: 0px;
+	background-color: #D3DCDE; /*blue*/
+}
+
+.item14{
+	background-color: #CFD9BB; /*green*/
+}
+.item15{
+	padding-top: 0px;
+	background-color: #CFD9BB; /*green*/
+}
+
+
+/*mobile*/
+
 @media screen and (max-width: 575px){
   .container {
   width: 100%;
@@ -721,15 +853,11 @@ h4{
 
 /*about me responsive */
 
-@media screen and (max-width: 575px){
-  .container {
-  width: 100%;
-}
-
 
 .grid-container6{
 	display: block;
 	grid-row-gap: 10px;
+	grid-template-rows:auto;
 }
 
 .amd-images{
