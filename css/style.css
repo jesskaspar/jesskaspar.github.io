@@ -25,7 +25,7 @@ body{
 .button {
 	display: inline-block;
 	margin: 0;
-  padding-left: 30px;
+  padding-right: 30px;
 	text-decoration: none;
 }
 
@@ -36,6 +36,7 @@ body{
 
 ul{
   list-style:none;
+	padding-inline-start: 0px;
 }
 
 header{
@@ -136,6 +137,7 @@ header{
 	margin-left: 15px;
 	padding: 10px 16px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 .link a{
 	color: #FCEFCD;
