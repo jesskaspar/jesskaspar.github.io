@@ -110,6 +110,7 @@ header{
   font-size: 26px;
   font-family: "Chivo", verdana, sans-serif;
   font-weight: normal;
+	text-align: center;
 }
 
 .ccimages{
@@ -259,6 +260,7 @@ h4{
 	font-family: "Chivo", verdana, sans-serif;
 	font-weight: normal;
 	margin: 10px;
+	text-align: left;
 }
 h5{
 	font-size: 16px;
@@ -294,7 +296,7 @@ p{
 
 .grid-container1{
 	display: grid;
-	grid-template-columns: 77% 78%;
+	grid-template-columns: 74% 74%;
 	grid-template-rows: auto auto auto;
 }
 
