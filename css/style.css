@@ -262,6 +262,7 @@ h4{
 	margin: 10px;
 	text-align: left;
 }
+
 h5{
 	font-size: 16px;
 	font-family: "Chivo", verdana, sans-serif;
@@ -648,10 +649,15 @@ h1{
 h2{
 	margin: 10px;
 	padding-left: 0px;
+	font-size: 28px;
+	padding-top: 10px;
 }
 
 h4{
 	margin: 10px;
+	font-size: 36px;
+	padding: 10px;
+	text-align: center;
 }
 
 .slogan{
@@ -820,7 +826,6 @@ h4{
 .grid-container1{
 	display: block;
 }
-
 
 .grid-container2{
 	display: block;
