@@ -1,6 +1,6 @@
 /*index html*/
 body{
-	background-color: #FCEFCD;
+	background-color: #FFFFFF;
 }
 
 .logo{
@@ -40,10 +40,10 @@ ul{
 }
 
 header{
-	background-image: url(../images/herodark.jpg);
+	background-image: url(../images/leaffade.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-  height: 350px;
+  height: 450px;
 	padding-top: 100px;
 	text-align: center;
   width: 100%;
@@ -55,37 +55,19 @@ header{
 	height:533px;
 }
 
-.ocean{
-	background-image: url(../images/oceandark.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 
 .headers{
 	padding-left: 20px;
 }
 
-.col1{
-	background-color: #CFD9BB;
-	float: left;
-  height: 533px;
-	margin-top: 10px;
-  width: 50%;
-}
 
 .col2{
+		background-color: #FEF8F2;
     float: right;
     height: 533px;
-		margin-top: 10px;
-    width: 49%;
-}
-
-.box1{
-		background-color: #CFD9BB;
-}
-.box2{
-		background-color: #D3DCDE;
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
 }
 
 .wrap{
@@ -106,11 +88,13 @@ header{
 }
 
 .slogan{
-	color: #FCEFCD;
-  font-size: 26px;
-  font-family: "Chivo", verdana, sans-serif;
+	color: #000000;
+  font-size: 20px;
+  font-family: "Overpass", verdana, sans-serif;
   font-weight: normal;
-	text-align: center;
+	text-align: left;
+	padding-left: 500px;
+	width: 473px;
 }
 
 .ccimages{
@@ -238,7 +222,7 @@ h1{
   font-size: 62px;
   font-family: "Chivo", verdana, sans-serif;
   font-weight: normal;
-	color: #FCEFCD;
+	color: #000000;
 }
 
 h2{
