@@ -49,30 +49,26 @@ header{
   width: 100%;
 }
 
-
 .project-row{
   clear: both;
 	height:533px;
 }
 
-
 .headers{
 	padding-left: 20px;
 }
 
-
-.col2{
+.box1{
 		background-color: #FEF8F2;
-    float: right;
     height: 533px;
-		margin-top: 50px;
+		margin-bottom: 50px;
 		margin-left: 50px;
 		margin-right: 50px;
 }
 
 .wrap{
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-around;
 }
 
@@ -98,13 +94,16 @@ header{
 }
 
 .ccimages{
-	margin: 5px;
+	margin: 25px;
 }
 
 .bjimages{
-	margin: 10px;
+	margin: 25px;
 }
 
+.bbimages{
+	margin:25px;
+}
 
 .about{
 	margin: 10px;
@@ -124,6 +123,7 @@ header{
 	text-align: center;
 	margin-bottom: 10px;
 }
+
 .link a{
 	color: #FCEFCD;
 	text-decoration: none;
@@ -136,7 +136,6 @@ header{
 .up1-images{
 	padding:10px;
 	text-align: center;
-
 }
 
 .up2-images{
@@ -174,6 +173,7 @@ header{
 .wf1-images{
 	width: 100%;
 }
+
 .wf2-images{
 	width: 100%;
 }
@@ -220,39 +220,50 @@ header{
 
 h1{
   font-size: 62px;
-  font-family: "Chivo", verdana, sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: normal;
 	color: #000000;
 }
 
 h2{
   font-size: 36px;
-  font-family: "Chivo", verdana, sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: normal;
 	padding-left: 15px;
+	padding-top: 15px;
 }
 
 h3{
 	font-size: 16px;
-	font-family: "Overpass", verdana, sans-serif;
+	font-family: "Overpass", sans-serif;
 	font-weight: bold;
 	padding-left: 15px;
 	padding-right: 5px;
 }
 h4{
 	font-size: 62px;
-	font-family: "Chivo", verdana, sans-serif;
+	font-family: "Chivo", sans-serif;
 	font-weight: normal;
 	margin: 10px;
 	text-align: left;
 }
 
 h5{
-	font-size: 16px;
-	font-family: "Chivo", verdana, sans-serif;
+	font-size: 22px;
+	font-family: "Muli", sans-serif;
 	font-weight: normal;
-	color: #FCEFCD;
+	color: #000000;
+	text-align: center;
 }
+
+h6{
+	font-size: 12px;
+	font-family: "Muli", sans-serif;
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+}
+
 p{
 	font-size: 16px;
 	font-family: "Overpass", verdana, sans-serif;
@@ -267,15 +278,18 @@ p{
 	justify-content: space-around;
 }
 
-.footer{
+footer{
 	display: flex;
-	font-size: 16px;
-	font-family: 'Overpass', sans-serif;
-  flex-direction: row;
-  justify-content: center;
-	margin-top: 30px;
+	margin: 5px;
 }
 
+.footer-links{
+	display: flex;
+	font-size: 16px;
+	font-family: 'Muli', sans-serif;
+	flex-direction: row;
+	justify-content: center;
+}
 
 /*project container*/
 
